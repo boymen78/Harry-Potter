@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Harry Potter",
+    "description": "The boy who lived, and a brave young wizard.",
+    "person_photo": "https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/9636171/harrypotter.jpg?quality=90&strip=all&crop=7.8125,0,84.375,100"
+  },
+  {
+    "name": "Hermione Granger",
+    "description": "A brilliant witch with a passion for knowledge.",
+    "person_photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxVPnpx6xHVU9Dv5PDKycPjzqbiTgdSqkAxQ&s"
+  },
+  {
+    "name": "Ron Weasley",
+    "description": "Harry's loyal friend with a good heart.",
+    "person_photo": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/08/1400x700-3-6.jpg"
+  }
+]

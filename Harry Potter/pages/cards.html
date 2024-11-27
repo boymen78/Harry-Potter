@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/lessons.css">
+    <link rel="stylesheet" href="../css/cards.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <h2>Harry<span>Potter</span></h2>
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/home_works.html">Home Works</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/lessons.html">Lessons</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/cards.html" target="_blank">Send message</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">Click me!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-container" id="cards-container">
+
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <a href="https://www.harrypotter.com" target="_blank">
+                <div class="inner_footer">
+                    <h2>Harry Potter</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&#10006;</div>
+                <div class="modal_title">Заявка на поступление Хогвартс</div>
+                <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+                <button class="btn btn_dark btn_min">Перезвонить мне</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../js/cards.js"></script>
+<script src="../js/lesson.js"></script>
+<script src="../js/modal.js"></script>
+
+</body>
+</html>
